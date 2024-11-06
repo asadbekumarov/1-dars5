@@ -1,0 +1,96 @@
+body {
+  overflow-y: hidden;
+}
+
+section {
+  position: relative;
+  height: 100vh;
+
+  }
+  .build {
+    margin-top: 300px;
+    width: 1900px;
+    height: 300px;
+  }
+  .street {
+    width: 1900px;
+    height: 300px;
+  }
+  .traffic-light {
+    margin-left: 1180px;
+    margin-top: -440px;
+    width: 300px;
+    height: 300px;
+  }
+  .car {
+    position: absolute;
+    top: 550px;
+    left: 1300px;
+    bottom: 0px;
+    // animation: car 5s linear infinite;
+  }
+  .car1 {
+    animation: car 5s linear infinite;
+  }
+  .img {
+    .red {
+      position: absolute;
+      bottom: 586px;
+      left: 1317px;
+      width: 26px;
+      height: 26px;
+      border-radius: 50%;
+      background-color: red;
+    }
+    .red1 {
+      position: absolute;
+      bottom: 586px;
+      left: 1317px;
+      width: 26px;
+      height: 26px;
+      border-radius: 50%;
+      background-color: rgb(41, 4, 4);
+    }
+    .yellow {
+      position: absolute;
+      bottom: 556px;
+      left: 1317px;
+      width: 26px;
+      height: 26px;
+      border-radius: 50%;
+      background-color: rgb(51, 50, 7);
+    }
+    .yellow1 {
+      position: absolute;
+      bottom: 556px;
+      left: 1317px;
+      width: 26px;
+      height: 26px;
+      border-radius: 50%;
+      background-color: rgb(255, 251, 0);
+    }
+    .green {
+      position: absolute;
+      bottom: 526px;
+      left: 1317px;
+      width: 26px;
+      height: 26px;
+      border-radius: 50%;
+      background-color: rgb(7, 48, 6);
+    }
+    .green1 {
+      position: absolute;
+      bottom: 526px;
+      left: 1317px;
+      width: 26px;
+      height: 26px;
+      border-radius: 50%;
+      background-color: rgb(4, 255, 0);
+    }
+  }
+  @keyframes car {
+    100% {
+      transform: translateX(-1800px);
+    }
+  }
+}
